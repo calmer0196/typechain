@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {    
+        // 노드 평범하게 사용 다양한걸 import export 할수 있게 만듬
+        "module": "commonjs",
+        "target": "ES2015",
+        "sourceMap": true,
+        "rootDir": "src",
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"],
+    // 어떤 파일들이 컴파일 과정에 포함되는지 타임스크립트에 알려줌
+    "exclude": ["node_modules"]
+}
